@@ -10,6 +10,16 @@
   (major1) == 0 && (major2) <  1 || \
   (major1) == 0 && (major2) == 1 && (minor) <= 0)
 #endif /* MIN_VERSION_game */
+/* package MonadRandom-0.5.3 */
+#ifndef VERSION_MonadRandom
+#define VERSION_MonadRandom "0.5.3"
+#endif /* VERSION_MonadRandom */
+#ifndef MIN_VERSION_MonadRandom
+#define MIN_VERSION_MonadRandom(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  5 || \
+  (major1) == 0 && (major2) == 5 && (minor) <= 3)
+#endif /* MIN_VERSION_MonadRandom */
 /* package base-4.14.3.0 */
 #ifndef VERSION_base
 #define VERSION_base "4.14.3.0"

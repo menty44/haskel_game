@@ -2,6 +2,7 @@ module Main where
 
 import Control.Monad
 --import Control.Monad.Random
+import  Control.Monad.Random
 
 data RPS = Rock | Paper | Scissors
          deriving (Show, Eq, Read)
